@@ -11983,14 +11983,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-#main-page {
-  background-image: url("/images/Background.png");
-  width: 100%;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll, local;
-  opacity: 0.3;
 }/*# sourceMappingURL=main.css.map */
