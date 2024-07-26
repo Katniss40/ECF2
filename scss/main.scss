@@ -1,0 +1,26 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: #71b9e9;
+$secondary: #d2e412;
+$success: #3197e0;
+$dark:#8d7623;
+$info:  #518d3b;
+$font-family-sans-serif: cursive, sans-serif !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Then add additional custom code here
+
+main {
+    background-image: url("/images/Background.png");
+    width: 100%;
+    height: 100vh;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
